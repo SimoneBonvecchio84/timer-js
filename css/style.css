@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    margin: auto;
+    background-image: url(../img/tomato.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:600px ;
+    display: flex;
+   
+}
+.container{
+    
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: white;
+}
+
+.fa-clock {
+    font-size: 3rem;
+}
+
+.cont-crono{
+    margin-top: 100px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+
+#btn-start,
+#btn-stop {
+    padding: 10px 30px;
+    background-color:rgb(206 20 23) ;
+    border-radius: 5%;
+    color: white;
+    border: 2px solid white;
+}
+
+#btn-start:hover,
+#btn-stop:hover {
+    cursor: pointer;
+    background-color:rgb(19 91 43);
+}
